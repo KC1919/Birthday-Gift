@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "birthday";
+    src: url(./Fonts/fonts/VacationCityDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: "deon";
+    src: url(./Fonts/fonts/Deon\ Berney\ -\ Free\ Trial.ttf);
+}
+
+
+
+body{
+    margin:0;
+    background:linear-gradient(skyblue,pink) ;
+}
+
+.main{
+    width: 600px;
+    margin: 30px auto;
+}
+
+.d1{
+    color: #ffffff;
+    text-align: center;
+    font-family: deon, cursive;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.d2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    background-color:rgb(247, 229, 93);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.d2 p{
+    font-family: "deon";
+    font-size:40px;
+    font-weight: 600;
+}
+
+#head{
+    font-family: "birthday";
+}
+
+#profile-img{
+    border: 5px solid #efb0c9;
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: -20px;
+}
+
+#date{
+    margin-top: -20px;
+    font-family: "deon";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.utility{
+    text-shadow: 3px -2px 2px black;
+}
+
+.gift-div{
+    font-family: deon;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-heading{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size:35px;
+    margin-bottom: 5px;
+}
+
+.gift-sub-heading{
+    color: #ffffff;
+    font-weight: lighter;
+    font-size:25px;
+    margin-top: 5px;
+}
+
+.img-div{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    align-items: center;
+    background-image: url("./img/gift.jpg");
+    border: 6px solid #efb0c9;
+}
+
+.img-div:hover{
+    background-image: url("./img/happy.gif");
+}
